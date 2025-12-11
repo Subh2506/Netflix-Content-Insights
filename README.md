@@ -1,8 +1,7 @@
 Netflix Content Analysis 📺📊
 🔍 Project Overview
 
-This project provides insights into Netflix’s catalog of Movies and TV Shows.
-It focuses on exploring:
+This project provides insights into Netflix’s catalog of Movies and TV Shows. It focuses on exploring:
 
 Trends in content types (Movies vs TV Shows)
 
@@ -32,13 +31,13 @@ Source: Netflix Movies & TV Shows Dataset (Kaggle)
 
 Total Records: ~8,800 titles
 
-Features include:
+Main Features:
 
-Type (Movie / TV Show)
+Type (Movie/TV Show)
 
 Title
 
-Director, Cast
+Director & Cast
 
 Country
 
@@ -48,49 +47,52 @@ Rating
 
 Duration
 
-Genre (listed_in)
+Genre
 
 Description
 
 🧹 Data Cleaning Steps
 
-Handled missing values
+Removed missing values
 
-Standardized text columns
+Standardized text format
 
-Extracted year & duration information
+Extracted release year & duration
 
-Split multi-valued columns (e.g., genres, countries)
+Processed multi-valued columns (genres, country)
 
-Checked duplicate entries
+Checked for duplicate records
 
 📊 Key Insights
 
-Netflix has significantly expanded its catalog after 2015
+Majority of content on Netflix is Movies
 
-Movies dominate over TV Shows
+Netflix expanded significantly after 2015
 
-The most common ratings include TV-MA, TV-14, and TV-PG
+Popular genres include International Movies, Dramas, and Comedies
 
-Genres such as International Movies, Dramas, and Comedies appear most frequently
+Countries contributing most titles: USA, India, UK
 
-The USA, India, and UK contribute the most content
+Common ratings: TV-MA, TV-14, TV-PG
 
-📈 Visualizations Include
+📈 Visualizations Created
 
-Movie vs TV Show Count Plot
+Movies vs TV Shows comparison
 
-Year-wise Release Trend
+Top 10 genres
 
-Top Genres Analysis
+Ratings distribution
 
-Ratings Distribution
+Country-wise content map
 
-Country Contribution Chart
+Yearly trend of releases
 
-Heatmaps for correlations
+Correlation heatmap
 
-🚀 How to Run the Project
+🚀 How to Run
+
+Install required libraries:
+
 pip install pandas numpy matplotlib seaborn
 
 
@@ -99,21 +101,23 @@ Open the notebook:
 Netflix_Project.ipynb
 
 
-Run the cells in order to reproduce the analysis.
+Run all cells to reproduce the analysis.
 
 📝 Conclusion
 
-This project demonstrates real-world data analysis skills, including:
+This project demonstrates:
 
-Data cleaning & preprocessing
+Data cleaning
 
-Exploratory Data Analysis (EDA)
+Exploratory Data Analysis
 
-Visualization & storytelling
+Visualization
 
-Interpretation of platform content trends
+Real-world dataset handling
 
-It provides meaningful insights into Netflix’s evolving entertainment landscape.
+Insight extraction
+
+It provides a deeper understanding of Netflix’s content evolution and viewing trends.
 
 👩‍💻 Author
 
