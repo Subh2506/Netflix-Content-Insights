@@ -45,7 +45,7 @@ Netflix has expanded global content rapidly in the last decade — especially fr
 - Top 15 Countries with Netflix Content
 
 > Each visualization supports better decision-making and storytelling.
-> 📌 Conclusion
+## 📌 Conclusion
 
 This project provides a clear understanding of Netflix’s content trends through data analysis and visualization.
 It highlights how genres, countries, and release years vary across the platform, and demonstrates how EDA can be used for decision-making and storytelling.
