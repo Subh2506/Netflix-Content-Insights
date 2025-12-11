@@ -1,7 +1,9 @@
 # Netflix Content Analysis 📺📊
 
 ## 🔎 Project Overview
-This project provides insights into Netflix’s catalog of Movies and TV Shows. It focuses on understanding trends in content types, genres, distribution across countries, and how Netflix has grown over the years. The analysis helps identify user-viewing preferences and platform evolution.
+This project explores the Netflix Titles Dataset by performing thorough data cleaning, exploratory data analysis (EDA), and visualizations to uncover insights about content types, genres, ratings, durations, and countries.
+The analysis was performed in a Jupyter Notebook using Python libraries like Pandas, NumPy, Matplotlib, and Seaborn.
+The analysis helps identify user-viewing preferences and platform evolution.
 
 ---
 
@@ -38,8 +40,18 @@ Netflix has expanded global content rapidly in the last decade — especially fr
 > Navigate to `visuals/` folder to view charts
 
 - Movies vs TV Shows Distribution
-- Top 10 Genres Bar Chart
-- Release Trend Over Years
-- Top 10 Countries with Netflix Content
+- Top 10 Rating Distribution
+- Movie Duration Distribution
+- Top 15 Countries with Netflix Content
 
 > Each visualization supports better decision-making and storytelling.
+> 📌 Conclusion
+
+This project provides a clear understanding of Netflix’s content trends through data analysis and visualization.
+It highlights how genres, countries, and release years vary across the platform, and demonstrates how EDA can be used for decision-making and storytelling.
+
+⭐ Author
+
+Subhashree Pradhan
+
+Feel free to connect with me on LinkedIn and explore more projects on GitHub.
